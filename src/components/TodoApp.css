@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
+  padding: 3rem;
   font-family: sans-serif;
-  background-color: #331919;
+  background-color: #E3EEB2;
   /* Light grey */
   min-height: 100vh;
   /* Ensure it fills the screen */
@@ -14,7 +14,7 @@
 
 
 .trash-button {
-  background-color: #170634;
+  background-color: #332D56;
   color: rgb(130, 115, 115);
   border: none;
   border-radius: 50%;
@@ -39,13 +39,14 @@
 }
 
 .filter.active {
-  background-color: #234331;
-  color: white;
+  background-color: #332D56;
+  color: #F0E9D2;
 }
 
 .todo-list {
   width: 100%;
   max-width: 400px;
+  margin-top: 2rem;
 }
 
 
@@ -53,32 +54,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #000000;
-  border-radius: 8px;
+  border: none;
+  border-radius: 10px;
   padding: 1rem;
-  margin-bottom: 0.5rem;
-  color: white;
-  background-color: #234331;
+  margin-bottom: 0.8rem;
+  color: wh;
+  background-color: #4E6688;
 }
 
 
 
 .todo-item.completed .text {
   text-decoration: line-through;
-  color: rgb(14, 14, 14);
+  color: #71C0BB;
 }
 
 .delete {
   background: none;
   border: none;
-  color: rgb(12, 11, 11);
+  color: white;
   font-size: 20px;
   cursor: pointer;
 }
 
 .line-through {
   text-decoration: line-through;
-  color: rgb(249, 239, 239);
+  color: white;
 }
 
 .add-input {
@@ -94,7 +95,7 @@
 
 .add-input button {
   padding: 8px 16px;
-  background:  #234331;
+  background: #332D56;
   color: rgb(255, 245, 245);
   border: none;
   cursor: pointer;
@@ -113,8 +114,8 @@
   height: 50px;
   border-radius: 50%;
   border: none;
-  background-color: #234331;
-  color: white;
+  background-color: #332D56;
+  color: #F0E9D2;
   cursor: pointer;
 }
 
@@ -135,14 +136,13 @@
 
 .submit-button {
   padding: 6px 12px;
-  background-color: #234331;
+  background-color: #332D56;
   border: none;
-  color: white;
+  color: #F0E9D2;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .submit-button:hover {
-  background-color: #234331;
+  background-color: #332D56;
 }
-

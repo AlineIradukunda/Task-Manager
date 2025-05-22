@@ -105,7 +105,7 @@ const TodoApp: React.FC = () => {
                 {todo.text}
               </span>
               {todo.dueDate && (
-                <small style={{ display: 'block', fontSize: '0.75rem', color: '#666' }}>
+                <small style={{ display: 'block', fontSize: '0.75rem', color: '#E3EEB2' }}>
                   Due: {new Date(todo.dueDate).toLocaleString(undefined, {
                     year: 'numeric',
                     month: 'short',
